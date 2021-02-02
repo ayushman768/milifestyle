@@ -1,0 +1,80 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+/* //main+banner_div && Layer div */
+
+.main_banner {
+    background-image: url(..//img/PersonalCare.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.layer {
+    background: rgb(236 51 109 / 70%);
+}
+
+
+/* ======== */
+
+
+/* /navigtaion */
+
+.logo_Mi_lifestyle>img {
+    width: 60px;
+}
+
+
+/* ============== */
+
+
+/* //my_product_banner_section */
+
+.my_multy_product {
+    display: flex;
+}
+
+.mySingle_product {
+    font-size: 19px;
+    color: rgb(255 255 255);
+    text-align: center;
+}
+
+
+/* ========== */
+
+@media(max-width:1200px) {
+    .navigation {
+        display: none;
+    }
+    .my_multy_product {
+        background: rgb(255 255 255);
+        width: 100%;
+        border-top-left-radius: 21px;
+        border-top-right-radius: 21px;
+    }
+    .menu {
+        position: relative;
+        top: -44px;
+        z-index: 9999;
+        transform: rotateY( 154deg);
+    }
+    .first,
+    .sec,
+    .third {
+        border: 2px solid rgb(255 255 255);
+        margin: 5px 0px;
+    }
+    .first {
+        width: 10%;
+    }
+    .sec {
+        width: 4%;
+    }
+    .third {
+        width: 2%;
+    }
+}
